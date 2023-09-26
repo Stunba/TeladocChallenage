@@ -13,9 +13,18 @@
 		B616F8622AC3095F00B03E30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B616F8602AC3095F00B03E30 /* Main.storyboard */; };
 		B616F8642AC3096000B03E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B616F8632AC3096000B03E30 /* Assets.xcassets */; };
 		B616F8672AC3096000B03E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B616F8652AC3096000B03E30 /* LaunchScreen.storyboard */; };
-		B616F8722AC3096000B03E30 /* TeladocChallenageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616F8712AC3096000B03E30 /* TeladocChallenageTests.swift */; };
+		B616F8722AC3096000B03E30 /* FileVocabularyBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616F8712AC3096000B03E30 /* FileVocabularyBuilderTests.swift */; };
 		B616F87C2AC3096000B03E30 /* TeladocChallenageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616F87B2AC3096000B03E30 /* TeladocChallenageUITests.swift */; };
 		B616F87E2AC3096000B03E30 /* TeladocChallenageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616F87D2AC3096000B03E30 /* TeladocChallenageUITestsLaunchTests.swift */; };
+		B616F88B2AC30AC400B03E30 /* Romeo-and-Juliet.txt in Resources */ = {isa = PBXBuildFile; fileRef = B616F88A2AC30AC300B03E30 /* Romeo-and-Juliet.txt */; };
+		B616F88E2AC30FB300B03E30 /* Vocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616F88D2AC30FB300B03E30 /* Vocabulary.swift */; };
+		B616F8922AC3293E00B03E30 /* TextVocabularyBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616F8912AC3293E00B03E30 /* TextVocabularyBuilderTests.swift */; };
+		B616F8942AC3296900B03E30 /* VocabularyBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616F8932AC3296900B03E30 /* VocabularyBuilder.swift */; };
+		B616F8982AC329AA00B03E30 /* VocabularyComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616F8972AC329AA00B03E30 /* VocabularyComponent.swift */; };
+		B616F89D2AC337D200B03E30 /* VocabularyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616F89C2AC337D200B03E30 /* VocabularyViewController.swift */; };
+		B616F89F2AC33E7B00B03E30 /* VocabularyComponentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616F89E2AC33E7B00B03E30 /* VocabularyComponentPresenter.swift */; };
+		B616F8A12AC33E9D00B03E30 /* SortOptionsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616F8A02AC33E9D00B03E30 /* SortOptionsPresenter.swift */; };
+		B616F8A32AC3463800B03E30 /* VocabularyComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616F8A22AC3463800B03E30 /* VocabularyComponentTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +54,19 @@
 		B616F8662AC3096000B03E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B616F8682AC3096000B03E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B616F86D2AC3096000B03E30 /* TeladocChallenageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeladocChallenageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B616F8712AC3096000B03E30 /* TeladocChallenageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeladocChallenageTests.swift; sourceTree = "<group>"; };
+		B616F8712AC3096000B03E30 /* FileVocabularyBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileVocabularyBuilderTests.swift; sourceTree = "<group>"; };
 		B616F8772AC3096000B03E30 /* TeladocChallenageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeladocChallenageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B616F87B2AC3096000B03E30 /* TeladocChallenageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeladocChallenageUITests.swift; sourceTree = "<group>"; };
 		B616F87D2AC3096000B03E30 /* TeladocChallenageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeladocChallenageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B616F88A2AC30AC300B03E30 /* Romeo-and-Juliet.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Romeo-and-Juliet.txt"; sourceTree = "<group>"; };
+		B616F88D2AC30FB300B03E30 /* Vocabulary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocabulary.swift; sourceTree = "<group>"; };
+		B616F8912AC3293E00B03E30 /* TextVocabularyBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextVocabularyBuilderTests.swift; sourceTree = "<group>"; };
+		B616F8932AC3296900B03E30 /* VocabularyBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyBuilder.swift; sourceTree = "<group>"; };
+		B616F8972AC329AA00B03E30 /* VocabularyComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyComponent.swift; sourceTree = "<group>"; };
+		B616F89C2AC337D200B03E30 /* VocabularyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyViewController.swift; sourceTree = "<group>"; };
+		B616F89E2AC33E7B00B03E30 /* VocabularyComponentPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyComponentPresenter.swift; sourceTree = "<group>"; };
+		B616F8A02AC33E9D00B03E30 /* SortOptionsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortOptionsPresenter.swift; sourceTree = "<group>"; };
+		B616F8A22AC3463800B03E30 /* VocabularyComponentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyComponentTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +117,9 @@
 		B616F8592AC3095F00B03E30 /* TeladocChallenage */ = {
 			isa = PBXGroup;
 			children = (
+				B616F89B2AC337B200B03E30 /* Views */,
+				B616F8962AC3299000B03E30 /* Components */,
+				B616F88C2AC30BCA00B03E30 /* Models */,
 				B616F85A2AC3095F00B03E30 /* AppDelegate.swift */,
 				B616F85C2AC3095F00B03E30 /* SceneDelegate.swift */,
 				B616F85E2AC3095F00B03E30 /* ViewController.swift */,
@@ -106,6 +127,7 @@
 				B616F8632AC3096000B03E30 /* Assets.xcassets */,
 				B616F8652AC3096000B03E30 /* LaunchScreen.storyboard */,
 				B616F8682AC3096000B03E30 /* Info.plist */,
+				B616F88A2AC30AC300B03E30 /* Romeo-and-Juliet.txt */,
 			);
 			path = TeladocChallenage;
 			sourceTree = "<group>";
@@ -113,7 +135,9 @@
 		B616F8702AC3096000B03E30 /* TeladocChallenageTests */ = {
 			isa = PBXGroup;
 			children = (
-				B616F8712AC3096000B03E30 /* TeladocChallenageTests.swift */,
+				B616F8712AC3096000B03E30 /* FileVocabularyBuilderTests.swift */,
+				B616F8912AC3293E00B03E30 /* TextVocabularyBuilderTests.swift */,
+				B616F8A22AC3463800B03E30 /* VocabularyComponentTests.swift */,
 			);
 			path = TeladocChallenageTests;
 			sourceTree = "<group>";
@@ -125,6 +149,33 @@
 				B616F87D2AC3096000B03E30 /* TeladocChallenageUITestsLaunchTests.swift */,
 			);
 			path = TeladocChallenageUITests;
+			sourceTree = "<group>";
+		};
+		B616F88C2AC30BCA00B03E30 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B616F88D2AC30FB300B03E30 /* Vocabulary.swift */,
+				B616F8932AC3296900B03E30 /* VocabularyBuilder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B616F8962AC3299000B03E30 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B616F8972AC329AA00B03E30 /* VocabularyComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B616F89B2AC337B200B03E30 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B616F89C2AC337D200B03E30 /* VocabularyViewController.swift */,
+				B616F89E2AC33E7B00B03E30 /* VocabularyComponentPresenter.swift */,
+				B616F8A02AC33E9D00B03E30 /* SortOptionsPresenter.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +284,7 @@
 			files = (
 				B616F8672AC3096000B03E30 /* LaunchScreen.storyboard in Resources */,
 				B616F8642AC3096000B03E30 /* Assets.xcassets in Resources */,
+				B616F88B2AC30AC400B03E30 /* Romeo-and-Juliet.txt in Resources */,
 				B616F8622AC3095F00B03E30 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +310,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B616F89D2AC337D200B03E30 /* VocabularyViewController.swift in Sources */,
 				B616F85F2AC3095F00B03E30 /* ViewController.swift in Sources */,
+				B616F8942AC3296900B03E30 /* VocabularyBuilder.swift in Sources */,
 				B616F85B2AC3095F00B03E30 /* AppDelegate.swift in Sources */,
+				B616F89F2AC33E7B00B03E30 /* VocabularyComponentPresenter.swift in Sources */,
 				B616F85D2AC3095F00B03E30 /* SceneDelegate.swift in Sources */,
+				B616F88E2AC30FB300B03E30 /* Vocabulary.swift in Sources */,
+				B616F8A12AC33E9D00B03E30 /* SortOptionsPresenter.swift in Sources */,
+				B616F8982AC329AA00B03E30 /* VocabularyComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +326,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B616F8722AC3096000B03E30 /* TeladocChallenageTests.swift in Sources */,
+				B616F8922AC3293E00B03E30 /* TextVocabularyBuilderTests.swift in Sources */,
+				B616F8722AC3096000B03E30 /* FileVocabularyBuilderTests.swift in Sources */,
+				B616F8A32AC3463800B03E30 /* VocabularyComponentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
